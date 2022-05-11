@@ -1,11 +1,11 @@
 <?php 
 
-class Product{
+class Products{
     protected $type;
-    protected $price;
+    public $price;
     protected $size;
 
-    function __construct($type, $price, $size)
+    function __construct(string $type, int $price, int $size)
     {
         $this->type = $type;
         $this->price = $price;

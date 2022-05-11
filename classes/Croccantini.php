@@ -1,12 +1,12 @@
 <?php 
-include_once __DIR__ . "/Product.php";
+include_once __DIR__ . "/Products.php";
 
-class Croccantini extends Product{
+class Croccantini extends Products{
     protected $name;
     protected $genre;
     protected $typeOfAnimals;
 
-    function __construct($name, $genre, $typeOfAnimals, $type, $price, $size)
+    function __construct(string $name, string $genre,string $typeOfAnimals,string $type,int $price,int $size)
     {
         parent::__construct($type, $price, $size);
         $this->name = $name;
