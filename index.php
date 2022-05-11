@@ -5,9 +5,6 @@
     $croccantini = new Croccantini('croccantini', 'cibo', 'per cani', 'cibo per cani adulti', 65, 10);
     $visa = new CreditCard(1234567887654321, 100, 2025);
     $costumer = new User('Matteo', 'Anselmo', $visa, true);
-
-    echo $costumer->setDeal($croccantini);
-
 ?>
 
 <!DOCTYPE html>
