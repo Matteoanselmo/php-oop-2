@@ -31,9 +31,11 @@
         </li>
         <li>il prezzo intero del prodotto è: 
             <?php echo $croccantini->getPrice()?>
+            €
         </li>
         <li>il peso del prodotto è:
             <?php echo $croccantini->getSize()?>
+            Kg
         </li>
     </ul>
     <h4>
@@ -44,6 +46,7 @@
         <?php 
         echo $costumer->setDeal($croccantini);
         ?>
+        €
     </h5>
 </body>
 </html>
